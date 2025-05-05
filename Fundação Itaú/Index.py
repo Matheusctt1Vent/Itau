@@ -30,4 +30,4 @@ pages = {
 pg = st.navigation(pages)
 pg.run()
 
-st.logo('.\\imagens\\Logo.png',size='medium',icon_image='.\\imagens\\Logo.png')
+#st.logo('.\\imagens\\Logo.png',size='medium',icon_image='.\\imagens\\Logo.png')

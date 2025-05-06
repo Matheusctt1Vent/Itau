@@ -42,3 +42,4 @@ with st.sidebar.popover('Matheus', icon=":material/person:", use_container_width
                 <p style='margin-top: 4px;'>Log out</p>
             </div>
         """, unsafe_allow_html=True)
+        st.write("teste")

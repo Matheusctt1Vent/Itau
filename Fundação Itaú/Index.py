@@ -1,7 +1,11 @@
 import streamlit as st
+from PIL import Image
+
+icone = Image.open("imagens/icone.png")
+
 st.set_page_config(
     page_title='Fundação Itaú',
-    page_icon='imagens/icone.png',
+    page_icon=icone,  # Passa o objeto de imagem diretamente
     layout="wide",
     initial_sidebar_state='auto',
     menu_items={
@@ -23,8 +27,7 @@ pages = {
 pg = st.navigation(pages)
 pg.run()
 
-st.logo(st.logo('imagens/Logo.png', size='Large', icon_image='imagens/Logo.png')
-)
+st.logo('.\\imagens\\Logo.png',size='medium',icon_image='.\\imagens\\Logo.png')
 
 with st.sidebar.popover('Matheus', icon=":material/person:", use_container_width=False):
     col1, col2 = st.columns([1.2, 1])  # coluna da esquerda um pouco maior

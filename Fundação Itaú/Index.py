@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(
     page_title='Fundação Itaú',
-    page_icon='.\\imagens\\icone.png',
+    page_icon='./imagens/icone.png',
     layout="wide",
     initial_sidebar_state='auto',
     menu_items={

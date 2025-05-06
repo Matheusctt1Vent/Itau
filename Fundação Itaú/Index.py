@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(
     page_title='Fundação Itaú',
-    page_icon='./imagens/icone.png',
+    page_icon='/imagens/icone.png',
     layout="wide",
     initial_sidebar_state='auto',
     menu_items={
@@ -23,7 +23,7 @@ pages = {
 pg = st.navigation(pages)
 pg.run()
 
-st.logo(st.logo('./imagens/Logo.png', size='Large', icon_image='./imagens/Logo.png')
+st.logo(st.logo('/imagens/Logo.png', size='Large', icon_image='./imagens/Logo.png')
 )
 
 with st.sidebar.popover('Matheus', icon=":material/person:", use_container_width=False):

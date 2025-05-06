@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-icone = Image.open("imagens/icone.png")
+icone = Image.open("Fundação Itaú/imagens/icone.png")
 
 st.set_page_config(
     page_title='Fundação Itaú',
